@@ -122,11 +122,5 @@ def run():
         traceback.print_exc()
 
 
-while True:
-    print(f"\n🔄 Scanning gigatron.rs mice {MIN_PRICE}–{MAX_PRICE} RSD...")
-    try:
-        run()
-    except Exception as e:
-        print(f"Error: {e}")
-    print("⏳ Sleeping 10 min...\n")
-    time.sleep(600)
+print(f"\n🔄 Scanning gigatron.rs mice {MIN_PRICE}–{MAX_PRICE} RSD...")
+run()
