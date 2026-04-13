@@ -1,0 +1,6 @@
+[deploy]
+startCommand = "python gigatron_bot.py"
+restartPolicyType = "always"
+
+[build]
+builder = "dockerfile"
